@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryGUI", "Cria�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderHamburger", "Criação\Objeto\Builder\BuilderHamburger\BuilderHamburger.csproj", "{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeVillain", "Criação\Objeto\Prototype\PrototypeVillain\PrototypeVillain.csproj", "{03F8B435-58E2-4295-B693-4480E72C82F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F8B435-58E2-4295-B693-4480E72C82F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F8B435-58E2-4295-B693-4480E72C82F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F8B435-58E2-4295-B693-4480E72C82F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F8B435-58E2-4295-B693-4480E72C82F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

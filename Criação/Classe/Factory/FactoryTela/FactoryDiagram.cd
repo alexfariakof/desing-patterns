@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="desing_patterns.create.FactoryMethod.Creator.TelaCreator" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Creator\TelaCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Creator.ConcreteTelaWeb" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Creator\ConcreteTelaWeb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Creator.ConcreteTelaSmartWatch" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Creator\ConcreteTelaSmartWatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Creator.ConcreteTelaSmartTV" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Creator\ConcreteTelaSmartTV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Creator.ConcreteTelaSmartPhone" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Creator\ConcreteTelaSmartPhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Product.Tela">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Product\Tela.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Product.TelaSmartPhone" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="desing_patterns.create.FactoryMethod.Product.Tela" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.812" />
+        <Point X="3.75" Y="3.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Product\TelaSmartPhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Product.TelaSmartTV" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Product\TelaSmartTV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Product.TelaSmartWatch" Collapsed="true">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Product\TelaSmartWatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.create.FactoryMethod.Product.TelaWeb" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="desing_patterns.create.FactoryMethod.Product.Tela" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="4.688" />
+        <Point X="3.101" Y="4.688" />
+        <Point X="3.101" Y="5.346" />
+        <Point X="3.75" Y="5.346" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Criação\Classe\Factory\Tela\Product\TelaWeb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -3,15 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>desing_patterns</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Comportamental\Classe\" />
-    <Folder Include="Criação\Objeto\Builder\" />
-    <Folder Include="Estrutural\Classe\" />
-  </ItemGroup>
 
 </Project>

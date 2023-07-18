@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desing-patterns", "desing-p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryTela", "Criação\Classe\Factory\FactoryTela\FactoryTela.csproj", "{2EA6C160-53F7-4F9C-B7C8-5DCDE3CCD477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryGUI", "Criação\Objeto\AbstractFactoryGUI\AbstractFactoryGUI.csproj", "{18AC0422-FEE5-4300-8EDF-821894CD565A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderHamburger", "Criação\Objeto\Builder\BuilderHamburger\BuilderHamburger.csproj", "{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2EA6C160-53F7-4F9C-B7C8-5DCDE3CCD477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA6C160-53F7-4F9C-B7C8-5DCDE3CCD477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA6C160-53F7-4F9C-B7C8-5DCDE3CCD477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AC0422-FEE5-4300-8EDF-821894CD565A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AC0422-FEE5-4300-8EDF-821894CD565A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AC0422-FEE5-4300-8EDF-821894CD565A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AC0422-FEE5-4300-8EDF-821894CD565A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

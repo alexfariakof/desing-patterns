@@ -13,7 +13,7 @@ Console.WriteLine(xSalada.GetDescricao());
 hamburguerBuilder = new();
 var xBacon = hamburguerBuilder
         .SetTipoPao("Pimenta")
-        .SetTipoCarne("Frando")
+        .SetTipoCarne("Frango")
         .TemQueijo()
         .TemBacon()
         .Build();

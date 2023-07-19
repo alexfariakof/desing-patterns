@@ -10,9 +10,8 @@
 
   <ItemGroup>
     <Folder Include="Comportamental\Classe\" />
-    <Folder Include="Criação\Objeto\Singleton\" />
     <Folder Include="Criação\Objeto\Prototype\" />
-    <Folder Include="Estrutural\Classe\" />
+    <Folder Include="Estrutural\Adapter\" />
   </ItemGroup>
 
 </Project>

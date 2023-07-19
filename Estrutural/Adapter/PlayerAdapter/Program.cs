@@ -1,5 +1,6 @@
 ﻿using PlayerAdapter.Adapters;
 
+Console.WriteLine("Entre com o caminho do arquivo:");
 string? file = Console.ReadLine();
 
 var fileExtension = file.Split(".");

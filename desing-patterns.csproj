@@ -13,6 +13,8 @@
     <Folder Include="Criação\Objeto\Prototype\" />
     <Folder Include="Estrutural\Adapter\" />
     <Folder Include="Estrutural\Bridge\" />
+    <Folder Include="Estrutural\Composite\" />
+    <Folder Include="Estrutural\Decorator\" />
   </ItemGroup>
 
 </Project>

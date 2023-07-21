@@ -11,8 +11,11 @@ aggregate.AddItem(new Array[10]);
 aggregate.AddItem(new());
 ICollection<float> list = new List<float>{ 0, 0 };
 aggregate.AddItem(list);
+aggregate.AddItem(new Hashtable());
+aggregate.AddItem(new Dictionary<string, int>());
 aggregate.AddItem(2.8);
 aggregate.AddItem(8);
+aggregate.AddItem(new byte());
 aggregate.AddItem(1);
 
 
@@ -24,3 +27,8 @@ for(object item = iterator.First(); item != iterator.Last();  item = iterator.Ne
 }
 Console.WriteLine(iterator.CurrentItem);
 Console.ReadKey();
+
+/*
+ * Este Padrão permite acessar sequencialmente os elementos 
+ * de um objeto agregado sem expor a sua representação subjacente ou sua implementação 
+ */

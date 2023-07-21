@@ -7,10 +7,12 @@ ConcreteAggregate aggregate = new ConcreteAggregate();
 aggregate.AddItem("Item 1 ");
 aggregate.AddItem(() => new List<int> { 1, 2 });
 aggregate.AddItem(new ArrayList());
-aggregate.AddItem(new object());
+aggregate.AddItem(new Array[10]);
+aggregate.AddItem(new());
 ICollection<float> list = new List<float>{ 0, 0 };
 aggregate.AddItem(list);
-aggregate.AddItem("Item 4 ");
+aggregate.AddItem(2.8);
+aggregate.AddItem(8);
 aggregate.AddItem(1);
 
 

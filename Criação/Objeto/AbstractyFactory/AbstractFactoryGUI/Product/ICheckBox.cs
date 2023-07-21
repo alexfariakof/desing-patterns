@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryGUI.Product
+﻿namespace desing_patterns.Criação.Objeto.AbstractyFactory.AbstractFactoryGUI.Product
 {
     public interface ICheckBox
     {

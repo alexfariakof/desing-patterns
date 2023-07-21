@@ -1,6 +1,8 @@
 ﻿using AbstractFactoryGUI.Product;
+using desing_patterns.Criação.Objeto.AbstractFactoryGUI.Product;
+using desing_patterns.Criação.Objeto.AbstractyFactory.AbstractFactoryGUI.Product;
 
-namespace AbstractFactoryGUI.Factory
+namespace desing_patterns.Criação.Objeto.AbstractyFactory.AbstractFactoryGUI.Factory
 {
     public class WindowsFactory : IGUIFactory
     {

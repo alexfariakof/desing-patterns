@@ -1,7 +1,7 @@
 ﻿namespace DecoratorCar.Decorator.Base
 {
     //Decorator Base
-    public class CarroDecorator : ICarro
+    public abstract class CarroDecorator : ICarro
     {
         private readonly ICarro Carro;
         public CarroDecorator(ICarro _carro)

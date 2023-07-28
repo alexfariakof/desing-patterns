@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Beverage">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beverage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.DarkRoast">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\DarkRoast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.Decaf">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Decaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.Express">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Express.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.HouseBlend">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\HouseBlend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.Tea">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Tea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.Water">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Water.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Ingredients.Base.IngredientsDecorator">
+    <Position X="5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAE=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Ingredients\Base\IngredientsDecorator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.Ingredients.MilkDecorator">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Ingredients\MilkDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.Ingredients.MochaDecorator">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Ingredients\MochaDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.Ingredients.SoyDecorator">
+    <Position X="7.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Ingredients\SoyDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Concrete.Ingredients.WhipDecorator">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Ingredients.Base.IngredientsDecorator" FixedToPoint="true">
+      <Path>
+        <Point X="5.875" Y="6.69" />
+        <Point X="5.875" Y="6.875" />
+        <Point X="10.75" Y="6.875" />
+        <Point X="10.75" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationDecorator\Concrete\Ingredients\WhipDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="desing_patterns.Estrutural.Decorator.StarbuzzCoffeeDecorator.Interface.IBeverage">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBeverage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

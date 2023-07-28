@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desing-patterns", "desing-p
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryTela", "Criação\Classe\Factory\FactoryTela\FactoryTela.csproj", "{2EA6C160-53F7-4F9C-B7C8-5DCDE3CCD477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryGUI", "Criação\Objeto\AbstractFactoryGUI\AbstractFactoryGUI.csproj", "{18AC0422-FEE5-4300-8EDF-821894CD565A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderHamburger", "Criação\Objeto\Builder\BuilderHamburger\BuilderHamburger.csproj", "{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeVillain", "Criação\Objeto\Prototype\PrototypeVillain\PrototypeVillain.csproj", "{03F8B435-58E2-4295-B693-4480E72C82F6}"
@@ -17,13 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstrelaSingleton", "Criaç�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerAdapter", "Estrutural\Adapter\PlayerAdapter\PlayerAdapter.csproj", "{FD0C240C-5193-4E73-A638-9B97D34DD71B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanelaBridge", "Estrutural\Bridge\JanelaBridge\JanelaBridge.csproj", "{EB8140A9-4148-4438-BC6E-B09919EF7B1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JanelaBridge", "Estrutural\Bridge\JanelaBridge\JanelaBridge.csproj", "{EB8140A9-4148-4438-BC6E-B09919EF7B1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncionarioComposite", "Estrutural\Composite\FuncionarioComposite\FuncionarioComposite.csproj", "{ED43A229-D915-44A7-9242-7426F7C48844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncionarioComposite", "Estrutural\Composite\FuncionarioComposite\FuncionarioComposite.csproj", "{ED43A229-D915-44A7-9242-7426F7C48844}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorCar", "Estrutural\Decorator\DecoratorCar\DecoratorCar.csproj", "{F827B1CA-E7D4-4BD8-8453-860CBF07ADE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorCar", "Estrutural\Decorator\DecoratorCar\DecoratorCar.csproj", "{F827B1CA-E7D4-4BD8-8453-860CBF07ADE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorAnyTypeObject", "Comportamental\Objeto\Iterator\IteratorAnyTypeObject\IteratorAnyTypeObject.csproj", "{8C523917-F9D6-41B4-8977-4ECDCCE29530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorAnyTypeObject", "Comportamental\Objeto\Iterator\IteratorAnyTypeObject\IteratorAnyTypeObject.csproj", "{8C523917-F9D6-41B4-8977-4ECDCCE29530}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryGUI", "Criação\Objeto\AbstractyFactory\AbstractFactoryGUI\AbstractFactoryGUI.csproj", "{B93D6783-6F42-4D34-91E6-E5257AD86B79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantIterator", "Comportamental\Objeto\Iterator\RestaurantIterator\RestaurantIterator.csproj", "{11E7924B-8ECB-41A7-8F02-831848371C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarbuzzCoffeeDecorator", "Estrutural\Decorator\StarbuzzCoffeeDecorator\StarbuzzCoffeeDecorator.csproj", "{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +43,6 @@ Global
 		{2EA6C160-53F7-4F9C-B7C8-5DCDE3CCD477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA6C160-53F7-4F9C-B7C8-5DCDE3CCD477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA6C160-53F7-4F9C-B7C8-5DCDE3CCD477}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18AC0422-FEE5-4300-8EDF-821894CD565A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18AC0422-FEE5-4300-8EDF-821894CD565A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18AC0422-FEE5-4300-8EDF-821894CD565A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18AC0422-FEE5-4300-8EDF-821894CD565A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10E89D7-2AFA-404C-B3EE-41EBE1EAEA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -75,6 +75,18 @@ Global
 		{8C523917-F9D6-41B4-8977-4ECDCCE29530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C523917-F9D6-41B4-8977-4ECDCCE29530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C523917-F9D6-41B4-8977-4ECDCCE29530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93D6783-6F42-4D34-91E6-E5257AD86B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93D6783-6F42-4D34-91E6-E5257AD86B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93D6783-6F42-4D34-91E6-E5257AD86B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93D6783-6F42-4D34-91E6-E5257AD86B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E7924B-8ECB-41A7-8F02-831848371C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E7924B-8ECB-41A7-8F02-831848371C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E7924B-8ECB-41A7-8F02-831848371C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E7924B-8ECB-41A7-8F02-831848371C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

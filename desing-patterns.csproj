@@ -16,6 +16,7 @@
     <Folder Include="Estrutural\Bridge\" />
     <Folder Include="Estrutural\Composite\" />
     <Folder Include="Estrutural\Facade\" />
+    <Folder Include="Estrutural\FlyWeight\" />
   </ItemGroup>
 
 </Project>

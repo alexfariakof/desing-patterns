@@ -27,7 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryGUI", "Cria√
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantIterator", "Comportamental\Objeto\Iterator\RestaurantIterator\RestaurantIterator.csproj", "{11E7924B-8ECB-41A7-8F02-831848371C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarbuzzCoffeeDecorator", "Estrutural\Decorator\StarbuzzCoffeeDecorator\StarbuzzCoffeeDecorator.csproj", "{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarbuzzCoffeeDecorator", "Estrutural\Decorator\StarbuzzCoffeeDecorator\StarbuzzCoffeeDecorator.csproj", "{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionDecorator", "Estrutural\Decorator\CollectionDecorator\CollectionDecorator.csproj", "{AADFE457-989A-4AF2-BABF-3BCDBD67B4A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputTextDecorator", "Estrutural\Decorator\InputTextDecorator\InputTextDecorator.csproj", "{393C13AE-9BAA-4223-BE86-AECD71A8BE62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreFacade", "Estrutural\Facade\ScoreFacade\ScoreFacade.csproj", "{C946355E-C62D-4F7B-854A-BE3DD704F31E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +93,18 @@ Global
 		{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E977AD5-0F8F-4EBB-854B-9FBADFE0E1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADFE457-989A-4AF2-BABF-3BCDBD67B4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADFE457-989A-4AF2-BABF-3BCDBD67B4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADFE457-989A-4AF2-BABF-3BCDBD67B4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADFE457-989A-4AF2-BABF-3BCDBD67B4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393C13AE-9BAA-4223-BE86-AECD71A8BE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393C13AE-9BAA-4223-BE86-AECD71A8BE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393C13AE-9BAA-4223-BE86-AECD71A8BE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393C13AE-9BAA-4223-BE86-AECD71A8BE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C946355E-C62D-4F7B-854A-BE3DD704F31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C946355E-C62D-4F7B-854A-BE3DD704F31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C946355E-C62D-4F7B-854A-BE3DD704F31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C946355E-C62D-4F7B-854A-BE3DD704F31E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

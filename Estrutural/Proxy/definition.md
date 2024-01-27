@@ -1,17 +1,17 @@
-# Proxy (Padr„o Estrutural):
+# Proxy (Padr√£o Estrutural):
 
-Fornecer um subistituto ou marcador da localizaÁ„o  de outro objeto 
+Fornecer um subistituto ou marcador da localiza√ß√£o  de outro objeto 
 para controlar o acesso a esse objeto.
 
+- Acoplamento: O acoplamento pode ser reduzido, pois o cliente interage com o Proxy como se fosse o RealSubject.
+- Coes√£o: Pode variar dependendo da implementa√ß√£o, mas geralmente √© m√©dia a alta.
 
-Tipo de ImplementaÁıes Proxy
+### Tipo de Implementa√ß√µes Proxy
  - Virtual 
  - Remote 
  - Cache 
  - Protection
 
-- Acoplamento: O acoplamento pode ser reduzido, pois o cliente interage com o Proxy como se fosse o RealSubject.
-- Coes„o: Pode variar dependendo da implementaÁ„o, mas geralmente È mÈdia a alta.
 
 
- Verficar possibilidade de impolementaÁ„o do "Proxy Protection" para validaÁ„o de Perfil de Usu·rios na APi DP
+ Verficar possibilidade de impolementa√ß√£o do "Proxy Protection" para valida√ß√£o de Perfil de Usu√°rios na APi DP

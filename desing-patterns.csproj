@@ -17,6 +17,11 @@
     <Folder Include="Estrutural\Composite\" />
     <Folder Include="Estrutural\Facade\" />
     <Folder Include="Estrutural\FlyWeight\" />
+    <Folder Include="Estrutural\Proxy\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="5.1.1" />
   </ItemGroup>
 
 </Project>

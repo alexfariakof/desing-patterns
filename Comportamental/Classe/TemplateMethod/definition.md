@@ -1,0 +1,2 @@
+﻿Definir o esqueleto de um algoritimo em uma operação, postergando alguns passos para as subclasses.
+Template Method permite que subclasses redefinam certos passos de um algoritimo sem mudar a estrutura do mesmo. 

@@ -5,9 +5,9 @@ que o objeto possa ser restaurado para esse estado mais tarde.
 
 ### O padrão ConcreteMemento é usado para capturar e armazenar o estado interno de um objeto sem violar o encapsulamento. Isso permite que o objeto seja restaurado posteriormente para o seu estado anterior. 
 #### Para implementar o padrão ConcreteMemento, precisamos de três classes:
-     * A classe Originator, que é a classe cujo estado desejamos salvar e restaurar.
-     * A classe ConcreteMemento, que é uma classe auxiliar que armazena o estado interno do Originator.
-     * A classe Caretaker, que é responsável por armazenar e gerenciar os objetos ConcreteMemento.
+* A classe Originator, que é a classe cujo estado desejamos salvar e restaurar.
+* A classe ConcreteMemento, que é uma classe auxiliar que armazena o estado interno do Originator.
+* A classe Caretaker, que é responsável por armazenar e gerenciar os objetos ConcreteMemento.
 
 
 - Acoplamento: Pode variar dependendo da implementação, mas geralmente é médio.

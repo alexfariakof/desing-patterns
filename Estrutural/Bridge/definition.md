@@ -1,2 +1,4 @@
+# Bridge (Padrão Estrutural):
+
 - Acoplamento: Reduz o acoplamento, pois a implementação é separada da abstração.
 - Coesão: Alta coesão, pois a implementação está isolada.

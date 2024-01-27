@@ -1,2 +1,0 @@
-﻿Encapsular uam solicitação como objeto, dets forma permitindo parametrizar cliente com diferentes solicitações, 
-enfileirar ou fazer o resgistro de solcitações e suportar operações que podem ser desfeitas.

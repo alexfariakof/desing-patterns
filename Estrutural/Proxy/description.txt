@@ -1,0 +1,12 @@
+Fornecer um subistituto ou marcador da localização  de outro objeto 
+para controlar o acesso a esse objeto.
+
+
+Tipo de Implementações Proxy
+ - Virtual 
+ - Remote 
+ - Cache 
+ - Protection
+
+
+ Verficar possibilidade de impolementação do "Proxy Protection" para validação de Perfil de Usuários na APi DP

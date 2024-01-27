@@ -12,6 +12,18 @@ que o objeto possa ser restaurado para esse estado mais tarde.
 * A classe ConcreteMemento, que é uma classe auxiliar que armazena o estado interno do Originator.
 * A classe Caretaker, que é responsável por armazenar e gerenciar os objetos ConcreteMemento.
 
+
+### Considerações 
+ 
+ - Vantagens:
+   Esse padrão fornece uma maneira de implementar a captura de estado, sem expor a estrutura interna do objeto.  
+
+ - Desvangages:
+   Consumo excessivo de memória  
+   obs.: 
+	Uma possivél opção para solução do alto consumo de memória seria implementar cuidadores "Caretaker" para destruir objetos obsoletos.
+	Implementar em conjunto com o Caretaker o padrão flyweight possibilitando o compartilhamento dos objetos 
+
 ### SOlID
 - Princípio da Responsabilidade Única (SRP): O padrão Memento ajuda a manter a responsabilidade única ao separar as 
   preocupações de captura de estado e gestão de estado. O Originator é responsável por seu estado interno, o Memento cuida da 

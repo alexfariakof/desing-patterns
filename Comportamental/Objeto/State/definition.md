@@ -1,30 +1,28 @@
-# Observer (Padrão Comportamental):
-Definir uam dependência um para muitos entre objetos, de maneira 
-que quando um objeto muda de estado todos os seus dependentes são notificados e artualizados automaticamente.
+# State (Padrão Comportamental):
+Permite a um objeto altertar seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado de classe.
 
-- Acoplamento: Reduz o acoplamento, pois os observadores reagem a mudanças no sujeito.
-- Coesão: Média a alta, dependendo de como os observadores são projetados.
+ - Acoplamento: Reduz o acoplamento, pois os contextos interagem com estados por meio de uma interface.
+ - Coesão: Alta coesão, pois cada estado representa um comportamento específico
 
 ### Implementação 
-- IObserver (Interface do Observador): 
-  Define a interface comum que os observadores implementam. Isso permite que o sujeito se comunique com qualquer observador, independentemente da implementação específica.
+- Estado (State): 
+  Define a interface comum para todos os estados, garantindo que cada estado tenha responsabilidades claramente definidas.
 
-- ISubject (Interface do Sujeito): 
-  Define a interface comum que o sujeito implementa. Isso permite que os observadores se registrem e sejam notificados, sem conhecerem a implementação específica do sujeito.
+- Estados Concretos (Concrete States): 
+  Cada estado é uma classe separada, concentrando-se apenas em seu comportamento específico.
 
 ### SOlID
- #### - Responsabilidade Única (SRP):
-   O princípio da Responsabilidade Única diz que uma classe deve ter apenas uma razão para mudar. 
-   No contexto do padrão Observer, isso significa que a classe que está sendo observada (sujeito) e as classes 
-   que estão observando (observadores) devem ter responsabilidades bem definidas.
- - Sujeito (Subject): 
-   Responsável por manter o estado e notificar observadores sobre mudanças. Ele deve se concentrar na gestão do estado.
+#### - Aberto/Fechado (OCP):
+  O princípio Aberto/Fechado preconiza que uma classe deve estar aberta para extensão, mas fechada para modificação. 
+  O padrão State é uma implementação clássica desse princípio, pois permite que novos estados sejam adicionados 
+  sem modificar a classe do contexto.
 
- - Observador (Observer): Responsável por reagir a mudanças no sujeito. Ele deve se concentrar na lógica relacionada à reação às mudanças.
+- Contexto (Context): A classe que mantém uma instância do estado atual e delega operações a esse estado.
 
- #### - Inversão de Dependência (DIP):
-   O princípio da Inversão de Dependência sugere que as classes devem depender de abstrações 
-   e não de implementações concretas. No padrão Observer, isso se traduz no fato de que tanto o sujeito 
-   quanto os observadores dependem de uma abstração comum (a interface do observador) 
-   em vez de dependerem diretamente uns dos outros.o reduz o acoplamento entre o Originator e o Memento, 
-   seguindo o princípio da inversão de dependência.
+- Estado (State): Define a interface comum para todos os estados concretos. Cada estado concreto implementa essa interface.
+
+- Estados Concretos (Concrete States): Implementam o comportamento específico associado a um determinado estado.
+
+#### - Responsabilidade Única (SRP):
+   O princípio da Responsabilidade Única sugere que uma classe deve ter apenas uma razão para mudar. 
+   No contexto do padrão State, isso significa que cada estado concreto deve ter uma responsabilidade única e específica.

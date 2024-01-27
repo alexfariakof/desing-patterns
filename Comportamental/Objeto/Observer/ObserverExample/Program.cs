@@ -23,11 +23,12 @@ ConcreteObserver observer2 = new ConcreteObserver("Observer 2");
 subject.RegisterObserver(observer1);
 subject.RegisterObserver(observer2);
 
-subject.NotifyObservers(42);
+subject.NotifyObservers(new Random().Next(0, 100));
 
 subject.RemoveObserver(observer2);
 
-subject.NotifyObservers(84);
+subject.NotifyObservers(new Random().Next(0, 100));
+
 
 Console.ReadLine();
 

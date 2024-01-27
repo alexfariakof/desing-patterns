@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyExample", "Estrutural\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyProtectionHotel", "Estrutural\Proxy\ProxyHotel\ProxyProtectionHotel.csproj", "{CDE6EC42-7C1F-4783-8BAD-4566B5BE8CE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodExample", "Comportamental\Classe\TemplateMethod\TemplateMethodExample\TemplateMethodExample.csproj", "{D3852E44-D187-4BBE-BB62-1713BD3C3950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{CDE6EC42-7C1F-4783-8BAD-4566B5BE8CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDE6EC42-7C1F-4783-8BAD-4566B5BE8CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDE6EC42-7C1F-4783-8BAD-4566B5BE8CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3852E44-D187-4BBE-BB62-1713BD3C3950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3852E44-D187-4BBE-BB62-1713BD3C3950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3852E44-D187-4BBE-BB62-1713BD3C3950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3852E44-D187-4BBE-BB62-1713BD3C3950}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

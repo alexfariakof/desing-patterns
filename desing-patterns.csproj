@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Comportamental\Classe\" />
     <Folder Include="Comportamental\Objeto\Iterator\" />
     <Folder Include="Criação\Objeto\Prototype\" />
     <Folder Include="Estrutural\Adapter\" />

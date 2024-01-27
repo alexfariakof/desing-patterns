@@ -33,15 +33,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorCollection", "Estr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorInputText", "Estrutural\Decorator\InputTextDecorator\DecoratorInputText.csproj", "{393C13AE-9BAA-4223-BE86-AECD71A8BE62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeScore", "Estrutural\Facade\ScoreFacade\FacadeScore.csproj", "{C946355E-C62D-4F7B-854A-BE3DD704F31E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeScore", "Estrutural\Facade\ScoreFacade\FacadeScore.csproj", "{C946355E-C62D-4F7B-854A-BE3DD704F31E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightFactory", "Estrutural\FlyWeight\FlyweightFactory\FlyweightFactory.csproj", "{592B0D2C-52C2-4081-B70C-78CA850BB1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightFactory", "Estrutural\FlyWeight\FlyweightFactory\FlyweightFactory.csproj", "{592B0D2C-52C2-4081-B70C-78CA850BB1DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyExample", "Estrutural\Proxy\ProxyExample\ProxyExample.csproj", "{BA9BE2EA-3B08-47A4-BD6B-5DDE75FF6B3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyExample", "Estrutural\Proxy\ProxyExample\ProxyExample.csproj", "{BA9BE2EA-3B08-47A4-BD6B-5DDE75FF6B3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyProtectionHotel", "Estrutural\Proxy\ProxyHotel\ProxyProtectionHotel.csproj", "{CDE6EC42-7C1F-4783-8BAD-4566B5BE8CE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyProtectionHotel", "Estrutural\Proxy\ProxyHotel\ProxyProtectionHotel.csproj", "{CDE6EC42-7C1F-4783-8BAD-4566B5BE8CE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodExample", "Comportamental\Classe\TemplateMethod\TemplateMethodExample\TemplateMethodExample.csproj", "{D3852E44-D187-4BBE-BB62-1713BD3C3950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodExample", "Comportamental\Classe\TemplateMethod\TemplateMethodExample\TemplateMethodExample.csproj", "{D3852E44-D187-4BBE-BB62-1713BD3C3950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityExample", "Comportamental\Objeto\ChainOfResponsibility\ChainOfResponsibilityExample\ChainOfResponsibilityExample.csproj", "{AE75EDE1-920C-4EB2-94E7-3C64878C9619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandExample", "Comportamental\Objeto\Command\CommandExample\CommandExample.csproj", "{4D4FD0E6-5C4F-4748-9D4C-9A3D7013C771}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorChatRoom", "Comportamental\Objeto\Mediator\MediatorChatRoom\MediatorChatRoom.csproj", "{5D7C2707-3E60-4300-9A21-68BF99255D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoExample", "Comportamental\Objeto\Memento\MementoExample\MementoExample.csproj", "{A6126224-3C8A-49FA-AC79-80BC0C13846C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverExample", "Comportamental\Objeto\Observer\ObserverExample\ObserverExample.csproj", "{854B1A20-3E80-40E2-8A01-03A07A6686CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateExample", "Comportamental\Objeto\State\StateExample\StateExample.csproj", "{70BA459A-7DE1-4A0B-983C-08258852CE1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyExample", "Comportamental\Objeto\Strategy\StrategyExample\StrategyExample.csproj", "{7768091D-0EED-40AC-9055-A71668848B4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +143,34 @@ Global
 		{D3852E44-D187-4BBE-BB62-1713BD3C3950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3852E44-D187-4BBE-BB62-1713BD3C3950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3852E44-D187-4BBE-BB62-1713BD3C3950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE75EDE1-920C-4EB2-94E7-3C64878C9619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE75EDE1-920C-4EB2-94E7-3C64878C9619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE75EDE1-920C-4EB2-94E7-3C64878C9619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE75EDE1-920C-4EB2-94E7-3C64878C9619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4FD0E6-5C4F-4748-9D4C-9A3D7013C771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4FD0E6-5C4F-4748-9D4C-9A3D7013C771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4FD0E6-5C4F-4748-9D4C-9A3D7013C771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4FD0E6-5C4F-4748-9D4C-9A3D7013C771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7C2707-3E60-4300-9A21-68BF99255D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7C2707-3E60-4300-9A21-68BF99255D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7C2707-3E60-4300-9A21-68BF99255D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7C2707-3E60-4300-9A21-68BF99255D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6126224-3C8A-49FA-AC79-80BC0C13846C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6126224-3C8A-49FA-AC79-80BC0C13846C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6126224-3C8A-49FA-AC79-80BC0C13846C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6126224-3C8A-49FA-AC79-80BC0C13846C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854B1A20-3E80-40E2-8A01-03A07A6686CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854B1A20-3E80-40E2-8A01-03A07A6686CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854B1A20-3E80-40E2-8A01-03A07A6686CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854B1A20-3E80-40E2-8A01-03A07A6686CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BA459A-7DE1-4A0B-983C-08258852CE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BA459A-7DE1-4A0B-983C-08258852CE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BA459A-7DE1-4A0B-983C-08258852CE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BA459A-7DE1-4A0B-983C-08258852CE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7768091D-0EED-40AC-9055-A71668848B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7768091D-0EED-40AC-9055-A71668848B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7768091D-0EED-40AC-9055-A71668848B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7768091D-0EED-40AC-9055-A71668848B4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

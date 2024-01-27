@@ -3,19 +3,14 @@
 Sem violar o encapsulamento, capturar e externalizar um estado interno de um objeto, de maneita 
 que o objeto possa ser restaurado para esse estado mais tarde.
 
+- Acoplamento: Pode variar dependendo da implementação, mas geralmente é médio.
+- Coesão: Média a alta, pois o cuidador e o memento estão relacionados.
+
 ### O padrão ConcreteMemento é usado para capturar e armazenar o estado interno de um objeto sem violar o encapsulamento. Isso permite que o objeto seja restaurado posteriormente para o seu estado anterior. 
 #### Para implementar o padrão ConcreteMemento, precisamos de três classes:
 * A classe Originator, que é a classe cujo estado desejamos salvar e restaurar.
 * A classe ConcreteMemento, que é uma classe auxiliar que armazena o estado interno do Originator.
 * A classe Caretaker, que é responsável por armazenar e gerenciar os objetos ConcreteMemento.
-
-
-- Acoplamento: Pode variar dependendo da implementação, mas geralmente é médio.
-- Coesão: Média a alta, pois o cuidador e o memento estão relacionados.
-
-### Considerações 
-* Utilize este padrão quando é dificil mudar alguma classe porque ela esta firmemente acoplada  a outra classe.
-* Quando não se pode reutilizar um componente em um progama diferente porque ele é muito dependente de outros componentes.
 
 ### SOlID
 - Princípio da Responsabilidade Única (SRP): O padrão Memento ajuda a manter a responsabilidade única ao separar as 
